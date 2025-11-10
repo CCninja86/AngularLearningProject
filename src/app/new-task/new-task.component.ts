@@ -9,7 +9,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class NewTaskComponent {
 
-  @Output() dialogCancelled = new EventEmitter();
+  @Output() dialogCancelled = new EventEmitter<void>();
 
   onDialogCancel() {
     this.dialogCancelled.emit();
