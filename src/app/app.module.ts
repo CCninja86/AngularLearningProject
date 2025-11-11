@@ -15,6 +15,6 @@ import { TasksModule } from './tasks/tasks.module';
     UserComponent    
   ],
   bootstrap: [AppComponent],
-  imports: [BrowserModule, FormsModule, SharedModule, TasksModule],
+  imports: [BrowserModule, SharedModule, TasksModule],
 })
 export class AppModule {}
